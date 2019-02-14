@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>O3 Swag Pad</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="bodymovin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+$(document).ready(function() {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+    });
+
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+
+        </script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  </head>
+  <body>
+
+      <div class="hover_bkgr_fricc">
+          <span class="helper"></span>
+          <div>
+            <div class="popupCloseButton">X</div>
+            <h3 style="color: gray; margin-top: 20px; text-align: left;"> Sign up for updates from O3 </h3>
+              <form action="https://sendyyyy.o3.network/subscribe" method="POST" accept-charset="utf-8" id="test-form" class="form-container" >
+                <div style="text-align: left;">
+                <label for="name">Name</label><br/>
+                <input  type="text" name="name" id="name"/>
+                <br/><br/>
+                <label for="email">Email</label><br/>
+                <input type="email" name="email" id="email"/><br/><br/><br/>
+              <input type="checkbox" name="gdpr" id="gdpr"/>
+              <span><strong>Marketing permission</strong>: I give my consent to  to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+              <br/><br/>
+              <span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at support@o3.network. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+              <br/><br/>
+                <div style="display:none;">
+                <label for="hp">HP</label><br/>
+                <input type="text" name="hp" id="hp"/>
+                </div>
+                <input type="hidden" name="list" value="b68SwypeRj9bMJDwa8gY892A"/>
+                <input type="hidden" name="subform" value="yes"/>
+                <input type="submit" name="submit" id="submit"/>
+              </form>
+            </div>
+
+          </div>
+      </div>
+
+
+
+
+<div class="content">
+    <img class="o3logo" src="img/o3_white.png" srcset="img/o3_white@2x.png 2x" height="78px" />
+    <div class="clear"></div>
+<div class="content-left">
+        <div class="luna-animation" id="animation"></div>
+        <h2 class="txt_center">Hi, I'm Luna! <br />
+          Want to win some <br />O3 swag?</h2>
+        </div>
+</div>
+
+<!-- Right side content -->
+<div class="txt_right content-right">
+<h3>Scan this QR code <br />with O3 for a chance</h3>
+<h1>TO WIN</h1>
+<img src="img/devconqr.png" srcset="img/devconqr@2x.png 2x" width="200px" />
+<br />
+
+
+<!--  Popup email sign up (not great on ipad if mistakes are made)
+  <a href="#">  <p class="btn-blue txt_center trigger_popup_fricc">&nbsp; Sign up with email</p></a>    --> 
+
+<!-- Opens in safari to help users if they type something wrong (it has back buttons) -->
+<a href="email.html">  <p class="btn-blue txt_center">&nbsp; Sign up with email</p></a>     
+
+
+<div class="clear"></div>
+<p>O3 is available on all major platforms.</p>
+<img src="img/google_play.png" class="store_logo" /><img src="img/app_store.png" class="store_logo" /><img src="img/windows.png" class="store_logo" /><img src="img/linux.png" class="store_logo" />
+
+</div>
+
+</body> 
+
+
+<script src="luna_bobbing.js"></script>
+
+
+
+
+
+
+</html>

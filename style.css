@@ -1,0 +1,231 @@
+body {
+  background-image: radial-gradient(circle at top, #45C2FF 0%, #218FFF 100%);
+  min-height: 1024px;
+  color: white;
+  font-family: "Nunito, Montserrat", "Helvetica", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 64pt;
+margin-top: -20px;
+margin-bottom: 10px;
+
+
+}
+
+h2 {
+  font-size: 30pt;
+
+
+}
+
+h3 {
+  font-size: 24pt;
+  padding: 0px;
+  margin-top: -30px;
+
+}
+
+p {
+  font-size: 14pt;
+}
+
+.content-left {
+ margin-left: 20px; 
+ padding-top: 50px;
+  width: 40%;
+  float: left;
+  padding-left: 100px;
+ /* background-color: red;
+  text-align: center;*/
+}
+
+.luna-animation {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+
+.content-right {
+  margin-right:50px;
+  width: 380px;
+  float: right;
+ }
+
+.txt_center {
+  text-align: center;
+}
+
+.txt_right {
+  text-align: right;
+}
+
+#animation {
+ /* background-color: green; */
+}
+
+.clear {
+  clear: both;
+}
+
+.store_logo {
+  padding-left: 30px;
+  height: 50px;
+}
+
+.btn-blue {
+  background: #C1E0FF;
+  height: 36px;
+  width: 350px;
+  border-radius: 8px;
+  color: #218FFF;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  float: right;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+p .btn-blue {
+  font-size: 34pt;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.o3logo {
+  margin-left: 20px; 
+  margin-right:20px;
+  margin-top: 30px;
+  padding: 30px;
+  margin-bottom: -80px;
+  float: left;
+}
+
+.email-form {
+  width: 600px;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+input[type=text], [type=email] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px, gray;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.btn_orange {
+  -webkit-appearance: none;
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px #C1E0FF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1em;
+  background-color: #F5A623;
+  color: white;
+}
+
+        /* The popup form - hidden by default */
+ .form-popup {
+    display: none;
+    width: 500px;
+    height: 530px;
+    margin: auto;
+
+    position: fixed;
+    background-color: white;
+    border-radius: 16px;
+    z-index: 9;
+    padding: 30px;
+    color:gray;
+        }
+
+        /* Add styles to the form container */
+.form-container {
+  max-width: 100%;
+  padding: 10px;
+  color:gray;
+
+}
+
+
+
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+  background:rgba(0,0,0,.4);
+  cursor:pointer;
+  display:none;
+  height:100%;
+  position:fixed;
+  text-align:center;
+  top:0;
+  width:100%;
+  z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 551px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 60%;
+  position: relative;
+  border-radius: 8px;
+  padding: 20px;;
+  
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_fricc {
+  cursor: pointer;
+  font-size: 20px;
+
+  display: inline-block;
+  font-weight: bold;
+}
+/* Popup box BEGIN */
